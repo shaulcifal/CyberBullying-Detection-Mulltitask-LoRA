@@ -96,9 +96,5 @@ via `peft`'s `save_pretrained` — a few MB each, not a full model copy).
   ≥ 0.5 counts as a match), the same style of metric used in HateXplain-family
   explainability papers.
 
-## Notes for further work
-
-- Ablation worth running: frozen-backbone linear probe vs. LoRA vs. full
-  fine-tuning, to quantify what LoRA buys you on this dataset size (~6k samples).
 - Trainable-parameter count is logged at the start of each training run — useful
   for the "reduced trainable parameters by >99% of backbone size" framing.
