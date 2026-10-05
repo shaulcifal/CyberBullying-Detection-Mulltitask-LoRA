@@ -1,0 +1,18 @@
+# raw dataset has no explicit redistribution license from the authors - keep it local only
+data/raw/
+data/processed/
+
+outputs/
+wandb/
+*.pt
+*.bin
+*.safetensors
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+
+PROJECT_EXPLANATION.txt
